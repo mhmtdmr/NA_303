@@ -1,0 +1,63 @@
+
+        /* CSS Seçiciler */
+
+
+        /* tüm anasayfa-li class ı taşıyanlara uygula. */ 
+        .anasayfa-li
+        {
+            float: left; 
+            margin-right:5px;
+            background-color: rgb(138, 210, 238);
+            padding: 4px;
+            border-radius: 5px;
+        }
+
+        /* kutu ve bolum sınıflarını içeren elementlere uygula */
+        .kutu.bolum
+        {
+            background-color: darkgreen;
+        }
+        /* kutu class'lı içindeki bolum class lı elemente uygula.*/
+        .kutu .bolum
+        {
+            background-color: blueviolet;
+        }
+        .kutu
+        {
+            border:5px solid darkblue;
+        }
+        .bolum
+        {
+            border:6px dashed pink;
+        }
+
+        /* main elementine uygula */
+        main{
+            background-color: tomato; 
+            padding: 1rem;
+        }
+        /*  Aşağıdaki css hem ul hem ol için geçerlidir.   */
+        ul , ol {
+            list-style-type: none;
+        }
+
+        section 
+        {
+            background-color: bisque; 
+            display: inline;
+        }
+
+        /* id si section2 olanlara uygula */ 
+        /* #section2 */
+
+        /* id si sectiob2 olan section'a uygula  */
+        section#section2
+        {
+            background-color: rgb(10, 198, 255);
+            display: block;
+        }
+
+        li:nth-child(3)
+        {
+            border-radius: 50%;
+        }
