@@ -5,7 +5,7 @@ body
 main
 {
     background-color: #488FB1;
-    width: 980px;
+    width: 85%;
     margin: 0 auto;
     
     /* daha sonra sileceğiz */ 
@@ -93,7 +93,8 @@ div.referance-box
 }
 div.yazi img
 {
-    width: 300px;
+    max-width: 100%;
+    height: auto;
     padding: 5px;
     background-color: antiquewhite;
     border-radius: 3px;
