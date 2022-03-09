@@ -1,0 +1,121 @@
+body 
+{
+    
+}
+main
+{
+    background-color: #488FB1;
+    width: 980px;
+    margin: 0 auto;
+    
+    /* daha sonra sileceğiz */ 
+    min-height: 750px;
+}
+div#advertise
+{
+    height: 120px;
+
+    /* daha sonra sileceğiz */ 
+    background-color: #4FD3C4;
+}
+div#nav
+{
+    height: 50px;
+    
+    /* daha sonra sileceğiz */ 
+    background-color: #533E85;
+}
+div#middle
+{
+    min-height: 450px;
+    background-color: #C1F8CF;
+}
+div#footer
+{
+    height: 130px;
+    background-color: #76c8ff;
+    display: inline-block;
+}
+div#middle-left
+{
+    min-height: 450px;
+    height: 100%;
+    width: 20%;
+    background-color: #570530;
+    float: left;
+}
+div#middle-right
+{
+    min-height: 450px;
+    width: 70%;
+    background-color: #C65D7B;
+    float: left;
+    padding: 0 5%;
+}
+div#menu ul
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    padding-left:25px;
+}
+div#menu li
+{
+    list-style-type: none;
+    float: left;
+    padding: 7px;
+    height: 36px;
+    line-height: 36px;
+    border-right:2px solid #4FD3C4;
+}
+/* div#menu li:nth-child(1) */
+div#menu li:first-child
+{
+    border-left:2px solid #4FD3C4;
+}
+div#menu li a
+{
+    color: #C1F8CF;
+    font-size:1.3rem;
+    text-decoration: none;
+}
+
+
+
+/*referans.html*/
+div.referance-box
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(158, 158, 158);
+    display: inline-block;
+    margin: 15px;
+}
+div.yazi img
+{
+    width: 300px;
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 3px;
+    margin: 5px;    
+    float: left;
+}
+.yazi h3{
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+.yazi p{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.baslikdetay
+{
+    float: left;
+    padding: 5px;
+    width: 350px;
+}
+.yazi
+{
+    padding: 15px 0;
+}
